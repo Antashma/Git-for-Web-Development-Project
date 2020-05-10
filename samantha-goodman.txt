@@ -1,5 +1,7 @@
+CODEPEN
 https://codepen.io/Antashma/full/eYpMXxJ    
 
+REVIEW QUESTIONS
 1. What is Semantic HTML? 
 Semantic HTML refers to descriptive and meaningful elements such as <section> and <nav>.
 
