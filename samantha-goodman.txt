@@ -1,4 +1,6 @@
-    1. What is Semantic HTML? 
+https://codepen.io/Antashma/full/eYpMXxJ    
+
+1. What is Semantic HTML? 
 Semantic HTML refers to descriptive and meaningful elements such as <section> and <nav>.
 
     2. What is HTML used for?
@@ -120,3 +122,22 @@ Lambda's Git Flow is as follows:
 	(5) Create a pull request with my master as the base and my fork for compare
 	(6) Add TL as reviewer
 	(7) Wait for TL to mark complete by merging the branch to my master fork.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+Block elements always start on a new line such as a <p>. An inline will not disrupt the flow of other elements and can be used within a block element such as a <em> or <span>.
+
+    2. What happens when an element is positioned absolutely?
+When an element is positioned absolutely, surrounding elements will flow around it as if it is not there. This element can be positioned in relation to how far you would like it to be from the top, left, right, and bottom of
+	(1) Its closest positioned ancestor element
+	(2) The browser if the latter is not available
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+You would change its 'display' property to 'inline-block'. You can then add the width property and set the value to your desired amount.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Three display block elements are <p>, <h1>, and <ul>. Two display inline elements are <em> and <strong>. One element that is inline-block is <img>.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+The box model refers to how the elements on the page are treated as boxes when positioning and sizing elements on a webpage. When arranging elements this way, we must be mindful of width, height, borders, padding, margins, and other similar properties that affect the flow of elements and the overall layout. This can be difficult. The fix is the flexbox layout which we use with css to easily have elements positioned and aligned depending on which flex-related properties we desire to use.
